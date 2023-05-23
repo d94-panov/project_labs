@@ -20,7 +20,7 @@ public class Lab_3 {
         double timeChange = (time/s-T);
         double moneyChange = (r/money/s-1) * money;
         System.out.println();
-        System.out.printf("Изменение продолжительности проекта составило - %.2f \n", timeChange, " месяцев");
-        System.out.printf("Изменение бюджета проекта составило - %.2f\n", moneyChange, "у.е.");
+        System.out.printf("Изменение продолжительности проекта составило - %.2f месяцев\n", timeChange);
+        System.out.printf("Изменение бюджета проекта составило - %.2f у.е.\n", moneyChange);
     }
 }
